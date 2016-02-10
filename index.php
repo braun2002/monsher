@@ -43,51 +43,35 @@
     </div>
 </header>
 <main class="main">
-
     <div class="text_head">
         <h1>Продукция</h1>
     </div>
+    <div class="product_wrapper">
+        <div class="cart">
+            <div class="img"><img src="img/kond1.jpg"></div>
+            <div class="name">Мульти сплит-система внутренний блок настенный Hisense AMS-09UR4SNSA4</div>
+            <button>Подробнее</button>
+        </div>
+        <div class="cart">
+            <div class="img"><img src="img/kond1.jpg"></div>
+            <div class="name">Мульти сплит-система внутренний блок настенный Hisense AMS-09UR4SNSA4</div>
+            <button>Подробнее</button>
+        </div>
+        <div class="cart">
+            <div class="img"><img src="img/kond1.jpg"></div>
+            <div class="name">Мульти сплит-система внутренний блок настенный Hisense AMS-09UR4SNSA4</div>
+            <button>Подробнее</button>
+        </div>
+        <div class="cart">
+            <div class="img"><img src="img/kond1.jpg"></div>
+            <div class="name">Мульти сплит-система внутренний блок настенный Hisense AMS-09UR4SNSA4</div>
+            <button>Подробнее</button>
+        </div>
+    </div>
 
-    <div class="cart">
-        <div class="img"><img src="img/kond1.jpg"></div>
-        <div class="name">Some Condition</div>
-        <button>Подробнее</button>
-    </div>
-    <div class="cart">
-        <div class="img"><img src="img/kond1.jpg"></div>
-        <div class="name">Some Condition</div>
-        <button>Подробнее</button>
-    </div>
-    <div class="cart">
-        <div class="img"><img src="img/kond1.jpg"></div>
-        <div class="name">Some Condition</div>
-        <button>Подробнее</button>
-    </div>
-    <div class="cart">
-        <div class="img"><img src="img/kond1.jpg"></div>
-        <div class="name">Some Condition</div>
-        <button>Подробнее</button>
-    </div>
-    <div class="cart">
-        <div class="img"><img src="img/kond1.jpg"></div>
-        <div class="name">Some Condition</div>
-        <button>Подробнее</button>
-    </div>
-    <div class="cart">
-        <div class="img"><img src="img/kond1.jpg"></div>
-        <div class="name">Some Condition</div>
-        <button>Подробнее</button>
-    </div>
-    <div class="cart">
-        <div class="img"><img src="img/kond1.jpg"></div>
-        <div class="name">Some Condition</div>
-        <button>Подробнее</button>
-    </div>
-    <div class="cart">
-        <div class="img"><img src="img/kond1.jpg"></div>
-        <div class="name">Some Condition</div>
-        <button>Подробнее</button>
-    </div>
+
+
+
 </main>
 <footer>
 
