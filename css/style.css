@@ -6,7 +6,6 @@ header{
     height:640px;
 }
 .main{
-    position: absolute;
     width:100%;
     background-image: url("../img/front-page-banner.png");
     background-size: cover;
@@ -21,9 +20,26 @@ main h1{
     font-size: 35px;
     font-weight: 700;
 }
+.product_wrapper{
+    text-align: center;
+    width:80%;
+    margin:0 auto;
+}
+.cart{
+    display: inline-block;
+    width: 25%;
+    margin: 20px;
+}
+.cart:nth-child(3n+0){
+    clear: both;
+}
+.cart img{
+    width:100%;
+}
+
+/**
 main .product_wrapper{
     margin: 0 auto;
-    /* height: 200px; */
     width: 80%;
 }
 .cart{
@@ -31,7 +47,6 @@ main .product_wrapper{
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     float: left;
     text-align: center;
-    /* width: 350px; */
     background: white;
     margin: 50px;
 }
@@ -51,10 +66,8 @@ main .product_wrapper{
     width: 200px;
     padding: 30px;
     text-align: center;
-    /* width: 180px; */
     margin: 5px;
     font-family: arial;
-    /* text-decoration: underline; */
 }
 
 .cart button{
@@ -84,7 +97,7 @@ main .product_wrapper{
     background-image: -o-linear-gradient(top, #ff4848, #ff4848);
     background-image: linear-gradient(to bottom, #ff4848, #ff4848);
     text-decoration: none;
-}
+}*/
 .top{
     position: relative; z-index: 9;     width: 80%;
     margin:0 auto;
@@ -224,6 +237,14 @@ main .product_wrapper{
 
 
 @media all and (max-width: 1280px){
+    .cart{
+        display: inline-block;
+        width: 30%;
+        margin: 20px;
+    }
+    .cart:nth-child(3n+0){
+        clear: none;
+    }
     .top{
         width:96%;
     }
@@ -233,7 +254,14 @@ main .product_wrapper{
 }
 
 @media all and (max-width : 768px) {
-
+    .cart{
+        display: inline-block;
+        width: 70%;
+        margin: 20px;
+    }
+    .cart:nth-child(3n+0){
+        clear: none;
+    }
     .smobitrigger, .mnuclose { display: inline-block; }
 
     .smobitrigger {

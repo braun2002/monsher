@@ -43,32 +43,62 @@
     </div>
 </header>
 <main class="main">
-    <div class="text_head">
-        <h1>Продукция</h1>
-    </div>
     <div class="product_wrapper">
-        <div class="cart">
-            <div class="img"><img src="img/kond1.jpg"></div>
-            <div class="name">Мульти сплит-система внутренний блок настенный Hisense AMS-09UR4SNSA4</div>
-            <button>Подробнее</button>
+        <div class="text_head">
+            <h1>Продукция</h1>
         </div>
         <div class="cart">
-            <div class="img"><img src="img/kond1.jpg"></div>
-            <div class="name">Мульти сплит-система внутренний блок настенный Hisense AMS-09UR4SNSA4</div>
-            <button>Подробнее</button>
+            <div id="image">
+                <img src="img/kond1.jpg">
+                <span>Какой то текст Какой то текст Какой то текст Какой то текст</span>
+            </div>
+            <div id="title">
+                <h2>Мульти сплит-система внутренний блок настенный Dantex RK-M09CC</h2>
+            </div>
+            <div id="more">Подробнее</div>
+            <a href="#">Подробнее</a>
         </div>
         <div class="cart">
-            <div class="img"><img src="img/kond1.jpg"></div>
-            <div class="name">Мульти сплит-система внутренний блок настенный Hisense AMS-09UR4SNSA4</div>
-            <button>Подробнее</button>
+            <img src="img/kond1.jpg">
         </div>
         <div class="cart">
-            <div class="img"><img src="img/kond1.jpg"></div>
-            <div class="name">Мульти сплит-система внутренний блок настенный Hisense AMS-09UR4SNSA4</div>
-            <button>Подробнее</button>
+            <img src="img/kond1.jpg">
+        </div>
+        <div class="cart">
+            <img src="img/kond1.jpg">
+        </div>
+        <div class="cart">
+            <img src="img/kond1.jpg">
+        </div>
+        <div class="cart">
+            <img src="img/kond1.jpg">
         </div>
     </div>
 
+  <!--
+  <div class="product_wrapper">
+        <div class="cart">
+            <div class="img"><img src="img/kond1.jpg"></div>
+            <div class="name">Мульти сплит-система внутренний блок настенный Hisense AMS-09UR4SNSA4</div>
+            <button>Подробнее</button>
+        </div>
+        <div class="cart">
+            <div class="img"><img src="img/kond1.jpg"></div>
+            <div class="name">Мульти сплит-система внутренний блок настенный Hisense AMS-09UR4SNSA4</div>
+            <button>Подробнее</button>
+        </div>
+        <div class="cart">
+            <div class="img"><img src="img/kond1.jpg"></div>
+            <div class="name">Мульти сплит-система внутренний блок настенный Hisense AMS-09UR4SNSA4</div>
+            <button>Подробнее</button>
+        </div>
+        <div class="cart">
+            <div class="img"><img src="img/kond1.jpg"></div>
+            <div class="name">Мульти сплит-система внутренний блок настенный Hisense AMS-09UR4SNSA4</div>
+            <button>Подробнее</button>
+        </div>
+  </div>
+-->
 
 
 
