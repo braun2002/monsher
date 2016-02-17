@@ -66,6 +66,7 @@
             if(!pause){slideTime = setTimeout(function(){animSlide('next')}, hwTimeOut);}
         }
         $('#slider-wrap').hover(
+
             function(){clearTimeout(slideTime); pause = true;},
             function(){pause = false; rotator();
             });
